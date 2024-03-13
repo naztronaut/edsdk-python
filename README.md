@@ -43,6 +43,20 @@ dependencies/EDSDK_64/Library/EDSDK.lib
 
 Any additional files aren't needed, but won't hurt either in case you copied the entire folders.
 
+## Windows 10 LNK1158 Fatal error: Cannot r un 'rc.exe'
+
+In windows 10, copy `rc.exe` and `rcdll.dll` from:
+
+```
+C:\Program Files (x86)\Windows Kits\10\bin\10.0.20348.0\x86
+```
+
+Note: Version number folder (e.g. 10.0.20348.0) may be different. 
+
+Copy to: 
+```
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin
+```
 
 ## Modify EDSDKTypes.h
 
